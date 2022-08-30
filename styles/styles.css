@@ -186,7 +186,7 @@ footer li {
     margin-bottom: 0.2rem;
 }
 
-footer a {
+footer a, footer p {
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -340,5 +340,76 @@ footer a {
 }
 
 @media only screen and (min-width: 1200px) {
+    header .desktop-style-box {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+    }
 
+    header .main-img-container {
+        margin: 0;
+        padding: 0;
+        width: 50%;
+    }
+
+    .desktop-style-box .content {
+        width: 50%;
+    }
+
+    header, main, footer {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+    
+    main {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    main h2 {
+        font-size: 2.1rem;
+    }
+
+    div.tablet-style-box.two {
+        margin-top: 6rem;
+        margin-bottom: 0;
+    }
+
+    .tablet-style-box.two .content {
+        width: 51%;
+    }
+
+    main .tablet-style-box .social-media-icons-container {
+        width: 32%;
+    }
+
+    main .tablet-style-box .phone-mockup-img-container {
+        width: 44%;
+    }
+
+    .tablet-style-box.one .content {
+        width: 52%;
+    }
+
+    footer div.footer-content-container {
+        width: 34%;
+    }
+
+    footer > div:last-child {
+        flex-direction: row;
+        width: 58%;
+        justify-content: space-between;
+    }
+
+    .footer-links-container > div {
+        width: 50%;
+        justify-content: space-around;
+    }
 }
