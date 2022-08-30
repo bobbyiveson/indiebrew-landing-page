@@ -10,8 +10,15 @@
 <body>
     <header>
         <nav>
-            <img src="./indiebrew-starter-files/assets/logo.svg" alt="">
-            <img src="./indiebrew-starter-files/assets/hamburger-menu.svg" alt="">
+            <img class="logo-img" src="./indiebrew-starter-files/assets/logo.svg" alt="">
+            <ul>
+                <li><a class="pricing" href="#">Pricing</a></li>
+                <li><a class="support" href="#">Support</a></li>
+                <li>
+                    <button class="get-started-button"><span class="bold-text">Get Started</span> &#8212 it's free</button>
+                </li>
+            </ul>
+            <img class="hamburger-menu" src="./indiebrew-starter-files/assets/hamburger-menu.svg" alt="">
         </nav>
         <div class="main-img-container">
             <img src="./indiebrew-starter-files/assets/feed-mockup.png" alt="" width="200px" height="200px">
@@ -21,78 +28,90 @@
             With IndieBrew, get personal feeds from resources all around the web, including Reddit, 
             HackerNews, IndieHackers, and much more.
         </p>
-        <button><span class="bold-text">Get Started</span> &#8212 it's free</button>
-        <div class="user-avatar-icons-container">
-            <img src="./indiebrew-starter-files/assets/user-avatars.svg" alt="">
+        <div class="button-avatar-container">
+            <button class="get-started-button"><span class="bold-text">Get Started</span> &#8212 it's free</button>
+            <div class="user-avatar-icons-container">
+                <img src="./indiebrew-starter-files/assets/user-avatars.svg" alt="">
+            </div>
         </div>
         <p>
             Join <span class="number-of-indiebrewers">32,642</span> IndieBrewers in curating their personal digest.
         </p>
     </header>
     <main>
-        <div class="social-media-icons-container">
-            <img src="./indiebrew-starter-files/assets/social-media-icons.png" alt="">
+        <div class="tablet-style-box one">
+            <div class="social-media-icons-container">
+                <img src="./indiebrew-starter-files/assets/social-media-icons.png" alt="">
+            </div>
+            <div class="content">
+                <h2>Curate your feed from dozens of resources.</h2>
+                <p>
+                    We cover all major platforms where one could want to curate thir feed from. Reddit, 
+                    ProduceHunt, IndieHackers, and so much more.
+                </p>
+                <a href="#">See full list of resources &#8594;</a>
+            </div>
         </div>
-        <div>
-            <h2>Curate your feed from dozens of resources.</h2>
-            <p>
-                We cover all major platforms where one could want to curate thir feed from. Reddit, 
-                ProduceHunt, IndieHackers, and so much more.
-            </p>
-            <a href="#">See full list of resources &#8594;</a>
-        </div>
-        <div class="phone-mockup-img-container">
-            <img src="./indiebrew-starter-files/assets/phone-mockup.png" alt="">
-        </div>
-        <div>
-            <h2>Access your feed from the comfort of your phone.</h2>
-            <p>
-                With native apps for both iOS and Android, accessing your curated content has never 
-                been easier.
-            </p>
-            <a href="#">Sign up for the waitlist &#8594;</a>
+        <div class="tablet-style-box two">
+            <div class="phone-mockup-img-container">
+                <img src="./indiebrew-starter-files/assets/phone-mockup.png" alt="">
+            </div>
+            <div class="content">
+                <h2>Access your feed from the comfort of your phone.</h2>
+                <p>
+                    With native apps for both iOS and Android, accessing your curated content has never 
+                    been easier.
+                </p>
+                <a href="#">Sign up for the waitlist &#8594;</a>
+            </div>
         </div>
     </main>
     <footer>
-        <h2>IndieBrew</h2>
-        <p>
-            With IndieBrew, get personal feeds from resources all around the web, including 
-            Reddit, HackerNews, and much more.
-        </p>
-        <p>
-            Made with <span>&#9829</span> in the UK.
-        </p>
+        <div class="footer-content-container">
+            <h2>IndieBrew</h2>
+            <p>
+                With IndieBrew, get personal feeds from resources all around the web, including 
+                Reddit, HackerNews, and much more.
+            </p>
+            <p>
+                Made with <span>&#9829</span> in the UK.
+            </p>
+        </div>
         <div class="footer-links-container">
-            <div class="footer-link-component">
-                <h3>Sitemap</h3>
-                <ul>
-                    <li><a href="#">Homepage</a></li>
-                    <li><a href="#">Pricing</a></li>
-                </ul>
+            <div>
+                <div class="footer-link-component">
+                    <h3>Sitemap</h3>
+                    <ul>
+                        <li><a href="#">Homepage</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-link-component">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer-link-component">
-                <h3>Resources</h3>
-                <ul>
-                    <li><a href="#">Support</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
-            </div>
-            <div class="footer-link-component">
-                <h3>Company</h3>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Customers</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
-            </div>
-            <div class="footer-link-component">
-                <h3>Resources</h3>
-                <ul>
-                    <li><a href="#">HackerNews</a></li>
-                    <li><a href="#">Reddit</a></li>
-                    <li><a href="#">Twitter</a></li>
-                </ul>
+            <div>
+                <div class="footer-link-component">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Customers</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-link-component">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">HackerNews</a></li>
+                        <li><a href="#">Reddit</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
